@@ -1,0 +1,18 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+
+class ServiceController extends Controller
+{
+    public function store(Request $request)
+    {
+        // Store the service request in the database
+        // Validation and logic for request processing
+
+        return response()->json([
+            'message' => 'تم إرسال طلبك بنجاح',
+        ]);
+    }
+}
